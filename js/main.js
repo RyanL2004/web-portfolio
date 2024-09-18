@@ -14367,24 +14367,82 @@ window.onload = titleMarquee;
        * @return {?}
        */
       var create = function() {
-        return(0, nMinutes.jsx)(nMinutes.Fragment, {
-          children : (0, nMinutes.jsx)("section", {
-            id : "projects",
-            className : "project",
-            children : (0, nMinutes.jsx)("div", {
-              className : "container",
-              children : (0, nMinutes.jsx)("h2", {
-                className : "Project-1",
-                children : "New projects coming soon.. \ud83e\udd20"
+        return (0, nMinutes.jsx)(nMinutes.Fragment, {
+          children: (0, nMinutes.jsx)("section", {
+            id: "projects",
+            className: "project",
+            children: (0, nMinutes.jsx)("div", {
+              className: "container",
+              children: (0, nMinutes.jsxs)("div", {
+                className: "project-content",
+                children: [
+                  // Project Heading
+                  (0, nMinutes.jsx)("h3", {
+                    className: "project-heading",
+                    children: "Each project is a unique piece of development 🧩",
+                  }),
+                  
+                  // Project 1 (React App)
+                  (0, nMinutes.jsxs)("div", {
+                    className: "project-item",
+                    children: [
+                      // Image side
+                      (0, nMinutes.jsx)("div", {
+                        className: "project-image",
+                        children: (0, nMinutes.jsx)("img", {
+                          src:"React.png", // Replace with your image path
+                          alt: "Car Rental Project",
+                        }),
+                      }),
+                      
+                      // Project Details
+                      (0, nMinutes.jsxs)("div", {
+                        className: "project-details",
+                        children: [
+                          (0, nMinutes.jsx)("h3", {
+                            children: "GPT Translation SaaS 🚗",
+                          }),
+                          (0, nMinutes.jsx)("h2", {
+                            children:
+                              "A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.",
+                          }),
+                          (0, nMinutes.jsxs)("div", {
+                            className: "tech-used",
+                            children: [
+                              (0, nMinutes.jsx)("span", {
+                                children: "React",
+                              }),
+                              (0, nMinutes.jsx)("span", {
+                                children: "SCSS",
+                              }),
+                            ],
+                          }),
+                          (0, nMinutes.jsxs)("div", {
+                            className: "project-links",
+                            children: [
+                              (0, nMinutes.jsx)("a", {
+                                href: "your-code-link", // Replace with your code link
+                                target: "_blank",
+                                children: "Code",
+                              }),
+                              (0, nMinutes.jsx)("a", {
+                                href: "your-live-demo-link", // Replace with your live demo link
+                                target: "_blank",
+                                children: "Live Demo",
+                              }),
+                            ],
+                          }),
+                        ],
+                      }),
+                    ],
+                  }),
+                ],
               }),
-              children : (0, nMinutes.jsx)("h2", {
-                className : "Project-2",
-                children : "New projects coming soon.. \ud83e\udd20"
-              })
-            })
-          })
+            }),
+          }),
         });
       };
+      
       var selectorElem = get("map-search", "IconMapSearch", [["path", {
         d : "M11 18l-2 -1l-6 3v-13l6 -3l6 3l6 -3v7.5",
         key : "svg-0"
