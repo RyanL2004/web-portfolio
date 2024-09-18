@@ -1,3 +1,14 @@
+var titleText = " " + document.title + " ";
+
+function titleMarquee() {
+    titleText = titleText.substring(1, titleText.length) + titleText.substring(0, 1);
+    document.title = titleText;
+    setTimeout(titleMarquee, 500);
+}
+
+window.onload = titleMarquee;
+
+
 !function() {
     /**
      * @param {number} type
@@ -14140,7 +14151,7 @@
                 });
               },
               className : "logo",
-              children : "Nowack.dev"
+              children : "Ryan"
             }), (0, nMinutes.jsxs)("ul", {
               children : [mod.map(function(params) {
                 return(0, nMinutes.jsx)("li", {
@@ -14219,20 +14230,20 @@
       }]]);
       /** @type {Array} */
       var mod = [{
-        img : "https://skillicons.dev/icons?i=mysql,spring&theme=light",
+        img : "https://skillicons.dev/icons?i=js,react&theme=light",
         id : 1
       }, {
-        img : "https://skillicons.dev/icons?i=react,vue&theme=light",
+        img : "https://skillicons.dev/icons?i=vue,nodejs&theme=light",
         id : 2
       }, {
-        img : "https://skillicons.dev/icons?i=java,nodejs&theme=light",
+        img : "https://skillicons.dev/icons?i=java,spring&theme=light",
         id : 3
       }, {
-        img : "https://skillicons.dev/icons?i=js,cs&theme=light",
+        img :"https://skillicons.dev/icons?i=mysql,php&theme=light",
         id : 4
       }, {
-      img : "https://skillicons.dev/icons?i=html,css&theme=light",
-      id : 5
+      img : "https://skillicons.dev/icons?i=cs,asp&theme=light",
+      id: 5
     }];
       /**
        * @return {?}
@@ -14251,11 +14262,11 @@
                   children : [(0, nMinutes.jsxs)("div", {
                     className : "hero-text",
                     children : [(0, nMinutes.jsx)("h1", {
-                      children : "Back-End Developer"
+                      children : "Software Developer"
                     }), (0, nMinutes.jsx)("img", {
                       src : "images/waving.1bae5fcfb51082b5c2b4.png"
                     }), (0, nMinutes.jsx)("p", {
-                      children : "Hi, I'm Rayan Louahche. A passionate Back-end Developer based in Bristol, UK. \ud83d\udccd"
+                      children : "Hi, I'm Rayan Louahche. A passionated Software Developer based in Bristol, UK. \ud83d\udccd"
                     }), (0, nMinutes.jsxs)("span", {
                       children : [(0, nMinutes.jsx)("a", {
                         "aria-label" : "linkedin",
@@ -14342,9 +14353,9 @@
                   children : [(0, nMinutes.jsx)("h3", {
                     children : "About me"
                   }), (0, nMinutes.jsxs)("h4", {
-                    children : ["Back-end Developer ", (0, nMinutes.jsx)("br", {}), " based in Bristol, UK \ud83d\udccd"]
+                    children : ["Software Developer", (0, nMinutes.jsx)("br", {}), " based in Bristol, UK \ud83d\udccd"]
                   }), (0, nMinutes.jsxs)("p", {
-                    children : ["Hey, my name is Rayan, and I'm a Backend Developer.", (0, nMinutes.jsx)("br", {}), (0, nMinutes.jsx)("br", {}), "My main stack currently is React/Next.js in combination with Tailwind CSS and TypeScript."]
+                    children : ["Hey, my name is Rayan, and I'm a Software Developer.", (0, nMinutes.jsx)("br", {}), (0, nMinutes.jsx)("br", {}), "My main stack currently is React/Next.js in combination with Tailwind CSS and TypeScript."]
                   })]
                 })]
               })
