@@ -14371,78 +14371,106 @@ window.onload = titleMarquee;
           children: (0, nMinutes.jsx)("section", {
             id: "projects",
             className: "project",
+            style: { padding: "50px 0", textAlign: "left" },
             children: (0, nMinutes.jsx)("div", {
               className: "container",
-              children: (0, nMinutes.jsxs)("div", {
-                className: "project-content",
-                children: [
-                  // Project Heading
-                  (0, nMinutes.jsx)("h3", {
-                    className: "project-heading",
-                    children: "Each project is a unique piece of development 🧩",
-                  }),
-                  
-                  // Project 1 (React App)
-                  (0, nMinutes.jsxs)("div", {
-                    className: "project-item",
-                    children: [
-                      // Image side
-                      (0, nMinutes.jsx)("div", {
-                        className: "project-image",
-                        children: (0, nMinutes.jsx)("img", {
-                          src:"React.png", // Replace with your image path
-                          alt: "Car Rental Project",
+              style: {
+                display: "flex",
+                justifyContent: "space-between",
+                alignItems: "center",
+                maxWidth: "1200px",
+                margin: "0 auto"
+              },
+              children: [
+                // Image side
+                (0, nMinutes.jsx)("div", {
+                  className: "project-image",
+                  style: { flex: "1", paddingRight: "20px" },
+                  children: (0, nMinutes.jsx)("img", {
+                    src: "https://github.com/user-attachments/assets/726f72a8-9c19-427e-ae7f-860fe44ede54", // Replace with your image path
+                    alt: "Project Screenshot",
+                    style: {
+                      width: "100%",
+                      height: "auto",
+                      borderRadius: "10px",
+                      boxShadow: "0 4px 8px rgba(0,0,0,0.1)"
+                    }
+                  })
+                }),
+                // Text side
+                (0, nMinutes.jsx)("div", {
+                  className: "project-text",
+                  style: { flex: "1", paddingLeft: "20px" },
+                  children: [
+                    (0, nMinutes.jsx)("h3", {
+                      style: { fontSize: "24px", marginBottom: "10px" },
+                      children: "GPT Translation SaaS 🤖"
+                    }),
+                    (0, nMinutes.jsx)("p", {
+                      style: { fontSize: "16px", marginBottom: "20px" },
+                      children:
+                        "A fully functional language translation application with advanced AI capabilities that was built along with UWE Bristol, facilitating seamless communication across language barriers. Enhanced user accessibility with speech-to-text and text-to-speech functionalities, catering to users with disabilities."
+                    }),
+                    (0, nMinutes.jsxs)("p", {
+                      style: { fontSize: "16px", marginBottom: "10px" },
+                      children: ["Languages: ", (0, nMinutes.jsx)("b", { children: "JavaScript | C# | HTML | LESS" })]
+                    }),
+                    (0, nMinutes.jsxs)("p", {
+                      style: { fontSize: "16px", marginBottom: "10px" },
+                      children: ["Technologies: ", (0, nMinutes.jsx)("b", { children: "React, Node, ASP.NET, OpenAI" })]
+                    }),
+                    // Code and Demo links
+                    (0, nMinutes.jsxs)("div", {
+                      style: { display: "flex", alignItems: "center" },
+                      children: [
+                        (0, nMinutes.jsx)("a", {
+                          href: "#",
+                          target: "_blank",
+                          rel: "noopener noreferrer",
+                          style: {
+                            textDecoration: "none",
+                            color: "#000",
+                            marginRight: "20px",
+                            display: "flex",
+                            alignItems: "center"
+                          },
+                          children: [
+                            (0, nMinutes.jsx)("i", {
+                              className: "fa fa-github",
+                              style: { marginRight: "5px" }
+                            }),
+                            "Code"
+                          ]
                         }),
-                      }),
-                      
-                      // Project Details
-                      (0, nMinutes.jsxs)("div", {
-                        className: "project-details",
-                        children: [
-                          (0, nMinutes.jsx)("h3", {
-                            children: "GPT Translation SaaS 🚗",
-                          }),
-                          (0, nMinutes.jsx)("h2", {
-                            children:
-                              "A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.",
-                          }),
-                          (0, nMinutes.jsxs)("div", {
-                            className: "tech-used",
-                            children: [
-                              (0, nMinutes.jsx)("span", {
-                                children: "React",
-                              }),
-                              (0, nMinutes.jsx)("span", {
-                                children: "SCSS",
-                              }),
-                            ],
-                          }),
-                          (0, nMinutes.jsxs)("div", {
-                            className: "project-links",
-                            children: [
-                              (0, nMinutes.jsx)("a", {
-                                href: "your-code-link", // Replace with your code link
-                                target: "_blank",
-                                children: "Code",
-                              }),
-                              (0, nMinutes.jsx)("a", {
-                                href: "your-live-demo-link", // Replace with your live demo link
-                                target: "_blank",
-                                children: "Live Demo",
-                              }),
-                            ],
-                          }),
-                        ],
-                      }),
-                    ],
-                  }),
-                ],
-              }),
-            }),
-          }),
+                        (0, nMinutes.jsx)("a", {
+                          href: "#",
+                          target: "_blank",
+                          rel: "noopener noreferrer",
+                          style: {
+                            textDecoration: "none",
+                            color: "#000",
+                            display: "flex",
+                            alignItems: "center"
+                          },
+                          children: [
+                            (0, nMinutes.jsx)("i", {
+                              className: "fa fa-external-link",
+                              style: { marginRight: "5px" }
+                            }),
+                            "Live Demo"
+                          ]
+                        })
+                      ]
+                    })
+                  ]
+                })
+              ]
+            })
+          })
         });
       };
       
+                
       var selectorElem = get("map-search", "IconMapSearch", [["path", {
         d : "M11 18l-2 -1l-6 3v-13l6 -3l6 3l6 -3v7.5",
         key : "svg-0"
