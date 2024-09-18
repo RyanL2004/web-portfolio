@@ -14353,9 +14353,9 @@ window.onload = titleMarquee;
                   children : [(0, nMinutes.jsx)("h3", {
                     children : "About me"
                   }), (0, nMinutes.jsxs)("h4", {
-                    children : ["Junior Software Developer", (0, nMinutes.jsx)("br", {}), " based in Bristol, UK \ud83d\udccd"]
+                    children : ["Motivated Junior Software Developer", (0, nMinutes.jsx)("br", {}), " based in Bristol, UK \ud83d\udccd"]
                   }), (0, nMinutes.jsxs)("p", {
-                    children : ["Hey, my name is Rayan, and I'm a Junior Software Developer.", (0, nMinutes.jsx)("br", {}), (0, nMinutes.jsx)("br", {}), "My main stack currently is | Java Script, React.js, Vue.js, Node.js | Java, Spring Boot | C#, ASP.NET "]
+                    children : ["Adaptable graduate with a Second-Class Honours (2:1) bachelor’s degree in Software Engineering for Business from UWE Bristol. Proficient in programming languages such as JavaScript, C#, and Java, with strong interest and hands-on experience in Front-End development and adherence to best practices like SOLID, DRY and Design Patterns. Skilled in managing complex projects, collaborating effectively, and delivering high-quality solutions under tight deadlines. Fluent in French and English, with strong communication skills and a passion for leveraging technology to solve real-world problems.", (0, nMinutes.jsx)("br", {}), (0, nMinutes.jsx)("br", {}), "My main stack currently is | Java Script, React.js, Vue.js, Node.js | Java, Spring Boot | C#, ASP.NET "]
                   })]
                 })]
               })
@@ -14374,7 +14374,11 @@ window.onload = titleMarquee;
             children : (0, nMinutes.jsx)("div", {
               className : "container",
               children : (0, nMinutes.jsx)("h2", {
-                className : "new-projects",
+                className : "Project-1",
+                children : "New projects coming soon.. \ud83e\udd20"
+              }),
+              children : (0, nMinutes.jsx)("h2", {
+                className : "Project-2",
                 children : "New projects coming soon.. \ud83e\udd20"
               })
             })
