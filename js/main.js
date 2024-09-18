@@ -14353,9 +14353,9 @@ window.onload = titleMarquee;
                   children : [(0, nMinutes.jsx)("h3", {
                     children : "About me"
                   }), (0, nMinutes.jsxs)("h4", {
-                    children : ["Software Developer", (0, nMinutes.jsx)("br", {}), " based in Bristol, UK \ud83d\udccd"]
+                    children : ["Junior Software Developer", (0, nMinutes.jsx)("br", {}), " based in Bristol, UK \ud83d\udccd"]
                   }), (0, nMinutes.jsxs)("p", {
-                    children : ["Hey, my name is Rayan, and I'm a Software Developer.", (0, nMinutes.jsx)("br", {}), (0, nMinutes.jsx)("br", {}), "My main stack currently is React/Next.js in combination with Tailwind CSS and TypeScript."]
+                    children : ["Hey, my name is Rayan, and I'm a Junior Software Developer.", (0, nMinutes.jsx)("br", {}), (0, nMinutes.jsx)("br", {}), "My main stack currently is | Java Script, React.js, Vue.js, Node.js | Java, Spring Boot | C#, ASP.NET "]
                   })]
                 })]
               })
