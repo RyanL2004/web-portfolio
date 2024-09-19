@@ -14370,7 +14370,7 @@ window.onload = titleMarquee;
         return (0, nMinutes.jsx)(nMinutes.Fragment, {
           children: (0, nMinutes.jsx)("section", {
             id: "projects",
-            className: "project",
+            className: "project1",
             style: { padding: "50px 0", textAlign: "left" },
             children: (0, nMinutes.jsx)("div", {
               className: "container",
@@ -14469,7 +14469,6 @@ window.onload = titleMarquee;
           })
         });
       };
-      
                 
       var selectorElem = get("map-search", "IconMapSearch", [["path", {
         d : "M11 18l-2 -1l-6 3v-13l6 -3l6 3l6 -3v7.5",
