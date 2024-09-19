@@ -14151,7 +14151,7 @@ window.onload = titleMarquee;
                 });
               },
               className : "logo",
-              children : "Ryan"
+              children : "Rayan"
             }), (0, nMinutes.jsxs)("ul", {
               children : [mod.map(function(params) {
                 return(0, nMinutes.jsx)("li", {
@@ -14242,7 +14242,7 @@ window.onload = titleMarquee;
         img :"https://skillicons.dev/icons?i=mysql,php&theme=light",
         id : 4
       }, {
-      img : "https://skillicons.dev/icons?i=cs,asp&theme=light",
+      img : "https://skillicons.dev/icons?i=cs,dotnet&theme=light",
       id: 5
     }];
       /**
@@ -14469,7 +14469,7 @@ window.onload = titleMarquee;
           })
         });
       };
-                
+//////////////////////////
       var selectorElem = get("map-search", "IconMapSearch", [["path", {
         d : "M11 18l-2 -1l-6 3v-13l6 -3l6 3l6 -3v7.5",
         key : "svg-0"
@@ -14486,6 +14486,15 @@ window.onload = titleMarquee;
         d : "M20.2 20.2l1.8 1.8",
         key : "svg-4"
       }]]);
+
+      var phone = get("phone", "IconPhone", [["path", {
+        d:"", // phone icon
+        key :"svg-0"
+      }], ["path", {
+        d: "", // phone icon
+        key: "svg-1"
+      }]])
+
       var domain = get("mail", "IconMail", [["path", {
         d : "M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z",
         key : "svg-0"
@@ -14493,6 +14502,7 @@ window.onload = titleMarquee;
         d : "M3 7l9 6l9 -6",
         key : "svg-1"
       }]]);
+      
       /**
        * @return {?}
        */
@@ -14544,6 +14554,23 @@ window.onload = titleMarquee;
                         href : "mailto:rayanlouahche2004@gmail.com",
                         children : "rayanlouahche2004@gmail.com"
                       })]
+                    }),
+                      (0, nMinutes.jsxs)("div", {
+                      className : "contact__icon-box",
+                      children : [(0, nMinutes.jsx)("span", {
+                        children : (0, nMinutes.jsx)(phone, {
+                          width : 30,
+                          height : 30
+                        })
+                      }), (0, nMinutes.jsxs)("div", {
+                        className : "contact__info",
+                        children : [(0, nMinutes.jsx)("h3", {
+                          children : "Phone"
+                        }), (0, nMinutes.jsx)("a", {
+                          children : "+44 7479 421186"
+                        })]
+                      }), 
+                      ]
                     })]
                   })]
                 })]
