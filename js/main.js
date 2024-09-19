@@ -14262,11 +14262,11 @@ window.onload = titleMarquee;
                   children : [(0, nMinutes.jsxs)("div", {
                     className : "hero-text",
                     children : [(0, nMinutes.jsx)("h1", {
-                      children : "Software Developer"
+                      children : "Junior Software Developer"
                     }), (0, nMinutes.jsx)("img", {
                       src : "images/waving.1bae5fcfb51082b5c2b4.png"
                     }), (0, nMinutes.jsx)("p", {
-                      children : "Hi, I'm Rayan Louahche. A passionated Software Developer based in Bristol, UK. \ud83d\udccd"
+                      children : "Hi there ! I'm Rayan, a graduate Software Developer enthusiast from UWE Bristol, now open to work, Im eager to expand my knowledge and expertise."
                     }), (0, nMinutes.jsxs)("span", {
                       children : [(0, nMinutes.jsx)("a", {
                         "aria-label" : "linkedin",
@@ -14344,7 +14344,7 @@ window.onload = titleMarquee;
                     className : "img-side__main-img"
                   }), (0, nMinutes.jsx)("span", {
                     children : (0, nMinutes.jsx)("img", {
-                      src : "images/text2.3d5aa6ba2d0632bb4e0572631c3f9dc2.svg",
+                      src : "https://github.com/user-attachments/assets/465f1813-2d40-4e15-9d68-92f0f73c5f30",
                       alt : "text"
                     })
                   })]
