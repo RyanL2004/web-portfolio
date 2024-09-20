@@ -14381,7 +14381,7 @@ window.onload = titleMarquee;
                 maxWidth: "1200px",
                 margin: "0 auto"
               },
-                children: [
+              children: [
                 // Image side
                 (0, nMinutes.jsx)("div", {
                   className: "project-image",
@@ -14424,7 +14424,7 @@ window.onload = titleMarquee;
                       style: { display: "flex", alignItems: "center" },
                       children: [
                         (0, nMinutes.jsx)("a", {
-                          href: "#",
+                          href: "#", // Replace with your code repository link
                           target: "_blank",
                           rel: "noopener noreferrer",
                           style: {
@@ -14443,7 +14443,7 @@ window.onload = titleMarquee;
                           ]
                         }),
                         (0, nMinutes.jsx)("a", {
-                          href: "#",
+                          href: "https://main.d2kq90havoolfb.amplifyapp.com/", // Updated to your Live Demo URL
                           target: "_blank",
                           rel: "noopener noreferrer",
                           style: {
@@ -14455,9 +14455,9 @@ window.onload = titleMarquee;
                           children: [
                             (0, nMinutes.jsx)("i", {
                               className: "fa fa-external-link",
-                              style: { marginRight: "5px" }
+                              style: { marginRight: "10px"}
                             }),
-                            "Live Demo"
+                            "Live Demo Here"
                           ]
                         })
                       ]
@@ -14469,6 +14469,7 @@ window.onload = titleMarquee;
           })
         });
       };
+      
 //////////////////////////
       var selectorElem = get("map-search", "IconMapSearch", [["path", {
         d : "M11 18l-2 -1l-6 3v-13l6 -3l6 3l6 -3v7.5",
