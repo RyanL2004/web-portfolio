@@ -14366,6 +14366,8 @@ window.onload = titleMarquee;
       /**
        * @return {?}
        */
+
+
       var create = function() {
         return (0, nMinutes.jsx)(nMinutes.Fragment, {
           children: (0, nMinutes.jsx)("section", {
@@ -14419,6 +14421,7 @@ window.onload = titleMarquee;
                       style: { fontSize: "16px", marginBottom: "10px" },
                       children: ["Technologies: ", (0, nMinutes.jsx)("b", { children: "React, Node, ASP.NET, OpenAI" })]
                     }),
+                    
                     // Code and Demo links
                     (0, nMinutes.jsxs)("div", {
                       style: { display: "flex", alignItems: "center" },
@@ -14470,7 +14473,66 @@ window.onload = titleMarquee;
         });
       };
       
-
+      var create2 = function() {
+        return(0, nMinutes.jsx)(nMinutes.Fragment, {
+          children : (0, nMinutes.jsx)("section", {
+            id : "projects",
+            className : "project2",
+            style: { padding: "50px 0", textAlign: "left" },
+            children : (0, nMinutes.jsx)("div", {
+              className : "container",
+              style: {
+                display: "flex",
+                justifyContent: "space-between",
+                alignItems: "center",
+                maxWidth: "1200px",
+                margin: "0 auto"
+              },
+              children : [
+                //image side
+                (0, nMinutes.jsx)("div", {
+                  className: "project-image",
+                  style: { flex: "1", paddingRight: "20px" },
+                  children: (0, nMinutes.jsx)("img", {
+                    src: "https://cdn.discordapp.com/attachments/908815689454858330/1287051903410372708/image.png?ex=66f023fe&is=66eed27e&hm=e559f535aa499dec50a71abc0b31b4b6e09b731063a5d754f9305967ee23a400&", // Replace with your image path
+                    alt: "Project Screenshot",
+                    style: {
+                      width: "100%",
+                      height: "auto",
+                      borderRadius: "10px",
+                      boxShadow: "0 4px 8px rgba(0,0,0,0.1)"
+                    }
+                  })
+                }),
+                  // Text side
+                  (0, nMinutes.jsx)("div", {
+                    className: "project-text",
+                    style: { flex: "1", paddingLeft: "20px" },
+                    children: [
+                      (0, nMinutes.jsx)("h3", {
+                        style: { fontSize: "24px", marginBottom: "10px" },
+                        children: "TRESA - Web system & urban map 🌿"
+                      }),
+                      (0, nMinutes.jsx)("p", {
+                        style: { fontSize: "16px", marginBottom: "20px" },
+                        children:
+                          "Worked alongside a Team to develop a fully integrated web system and Urban map. \nCreated a project plan and Gantt Chart from scratch while applying an agile project methodology.\nGathered technical and functional requirements from client, Created an SRS doc.\nDesigned and handled Database Administration and management.\nCreated a Custom API for Google Maps integration and Database interaction.\nEnabled User Data input and validation on non-declared urban green spaces.\nDelivered an Integration Strategy, Sustainability and Maintainability documents.\nSecured Client sign-off, demonstrating outstanding satisfaction with the project's outcomes."
+                      }),
+                      (0, nMinutes.jsxs)("p", {
+                        style: { fontSize: "16px", marginBottom: "10px" },
+                        children: ["Languages: ", (0, nMinutes.jsx)("b", { children: "JavaScript | PhP | MySQL servers 2022" })]
+                      }),
+                      (0, nMinutes.jsxs)("p", {
+                  style: { fontSize: "16px", marginBottom: "10px" },
+                        children: ["Technologies: ", (0, nMinutes.jsx)("b", { children: "Vue.js | Laravel | SSMS | Word Press | Google Maps" })]
+                      }),
+                  ]
+                })
+              ]
+            })
+          })
+        });
+      };
       
 //////////////////////////
       var selectorElem = get("map-search", "IconMapSearch", [["path", {
@@ -14627,7 +14689,7 @@ window.onload = titleMarquee;
        */
       var collections = function() {
         return(0, nMinutes.jsxs)(nMinutes.Fragment, {
-          children : [(0, nMinutes.jsx)(update, {}), (0, nMinutes.jsx)(init, {}), (0, nMinutes.jsx)(Redactor, {}), (0, nMinutes.jsx)(create, {}), (0, nMinutes.jsx)(parse, {}), (0, nMinutes.jsx)(success, {})]
+          children : [(0, nMinutes.jsx)(update, {}), (0, nMinutes.jsx)(init, {}), (0, nMinutes.jsx)(Redactor, {}), (0, nMinutes.jsx)(create, {}),(0, nMinutes.jsx)(create2, {}), (0, nMinutes.jsx)(parse, {}), (0, nMinutes.jsx)(success, {})]
         });
       };
       /**
