@@ -14315,11 +14315,11 @@ window.onload = titleMarquee;
         });
       };
       /** @type {string} */
-      var imgSrc = t.p + "static/media/about-img.62b47e7f183d4b4e9feb.webp";
+      var imgSrc = t.p + "images/about-img.62b47e7f183d4b4e9feb.webp";
       /** @type {string} */
-      var wscCoreUrl = t.p + "static/media/text2.3d5aa6ba2d0632bb4e0572631c3f9dc2.svg";
+      var wscCoreUrl = t.p + "images/text2.3d5aa6ba2d0632bb4e0572631c3f9dc2.svg";
       /** @type {string} */
-      var scriptLocation = t.p + "static/media/working-emoji.c5325f52b5be329995a5.png";
+      var scriptLocation = t.p + "images/working-emoji.c5325f52b5be329995a5.png";
       /**
        * @return {?}
        */
@@ -14424,7 +14424,7 @@ window.onload = titleMarquee;
                       style: { display: "flex", alignItems: "center" },
                       children: [
                         (0, nMinutes.jsx)("a", {
-                          href: "#", // Replace with your code repository link
+                          href: "https://github.com/RyanL2004/ai-react-app", // Replace with your code repository link
                           target: "_blank",
                           rel: "noopener noreferrer",
                           style: {
@@ -14470,6 +14470,8 @@ window.onload = titleMarquee;
         });
       };
       
+
+      
 //////////////////////////
       var selectorElem = get("map-search", "IconMapSearch", [["path", {
         d : "M11 18l-2 -1l-6 3v-13l6 -3l6 3l6 -3v7.5",
@@ -14489,10 +14491,10 @@ window.onload = titleMarquee;
       }]]);
 
       var phone = get("phone", "IconPhone", [["path", {
-        d:"", // phone icon
+        d:"M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z", // phone icon
         key :"svg-0"
       }], ["path", {
-        d: "", // phone icon
+        d: "M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z",
         key: "svg-1"
       }]])
 
@@ -14540,7 +14542,25 @@ window.onload = titleMarquee;
                         children : "Bristol, UK"
                       })]
                     })]
-                  }), (0, nMinutes.jsxs)("div", {
+                  }),
+                  (0, nMinutes.jsxs)("div", {
+                    className : "contact__icon-box",
+                    children : [(0, nMinutes.jsx)("span", {
+                      children : (0, nMinutes.jsx)(phone, {
+                        width : 30,
+                        height : 30
+                      })
+                    }), (0, nMinutes.jsxs)("div", {
+                      className : "contact__info",
+                      children : [(0, nMinutes.jsx)("h3", {
+                        children : "Phone"
+                      }), (0, nMinutes.jsx)("a", {
+                        children : "+44 7479 421186"
+                      })]
+                    }), 
+                    ]
+                  }),
+                  (0, nMinutes.jsxs)("div", {
                     className : "contact__icon-box",
                     children : [(0, nMinutes.jsx)("span", {
                       children : (0, nMinutes.jsx)(domain, {
@@ -14555,24 +14575,7 @@ window.onload = titleMarquee;
                         href : "mailto:rayanlouahche2004@gmail.com",
                         children : "rayanlouahche2004@gmail.com"
                       })]
-                    }),
-                      (0, nMinutes.jsxs)("div", {
-                      className : "contact__icon-box",
-                      children : [(0, nMinutes.jsx)("span", {
-                        children : (0, nMinutes.jsx)(phone, {
-                          width : 30,
-                          height : 30
-                        })
-                      }), (0, nMinutes.jsxs)("div", {
-                        className : "contact__info",
-                        children : [(0, nMinutes.jsx)("h3", {
-                          children : "Phone"
-                        }), (0, nMinutes.jsx)("a", {
-                          children : "+44 7479 421186"
-                        })]
-                      }), 
-                      ]
-                    })]
+                    }),]
                   })]
                 })]
               })
