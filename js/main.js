@@ -14526,6 +14526,48 @@ window.onload = titleMarquee;
                   style: { fontSize: "16px", marginBottom: "10px" },
                         children: ["Technologies: ", (0, nMinutes.jsx)("b", { children: "Vue.js | Laravel | SSMS | Word Press | Google Maps" })]
                       }),
+                      (0, nMinutes.jsxs)("div", {
+                        style: { display: "flex", alignItems: "center" },
+                        children: [
+                          (0, nMinutes.jsx)("a", {
+                            href: "https://github.com/RyanL2004/tresa-urban-project", // Replace with your code repository link
+                            target: "_blank",
+                            rel: "noopener noreferrer",
+                            style: {
+                              textDecoration: "none",
+                              color: "#000",
+                              marginRight: "20px",
+                              display: "flex",
+                              alignItems: "center"
+                            },
+                            children: [
+                              (0, nMinutes.jsx)("i", {
+                                className: "fa fa-github",
+                                style: { marginRight: "5px" }
+                              }),
+                              "Code"
+                            ]
+                          }),
+                          (0, nMinutes.jsx)("a", {
+                            href: "https://www.tresa.org.uk", // Updated to your Live Demo URL
+                            target: "_blank",
+                            rel: "noopener noreferrer",
+                            style: {
+                              textDecoration: "none",
+                              color: "#000",
+                              display: "flex",
+                              alignItems: "center"
+                            },
+                            children: [
+                              (0, nMinutes.jsx)("i", {
+                                className: "fa fa-external-link",
+                                style: { marginRight: "10px"}
+                              }),
+                              "Live Demo Here"
+                            ]
+                          })
+                        ]
+                      })
                   ]
                 })
               ]
