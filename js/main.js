@@ -14230,6 +14230,9 @@ window.onload = titleMarquee;
       }]]);
       /** @type {Array} */
       var mod = [{
+        img : "https://skillicons.dev/icons?i=html,css&theme=light",
+        id : 1
+      }, {
         img : "https://skillicons.dev/icons?i=js,react&theme=light",
         id : 1
       }, {
