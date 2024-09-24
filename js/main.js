@@ -14497,7 +14497,7 @@ window.onload = titleMarquee;
                   className: "project-image",
                   style: { flex: "1", paddingRight: "20px" },
                   children: (0, nMinutes.jsx)("img", {
-                    src: "https://cdn.discordapp.com/attachments/908815689454858330/1287051903410372708/image.png?ex=66f023fe&is=66eed27e&hm=e559f535aa499dec50a71abc0b31b4b6e09b731063a5d754f9305967ee23a400&", // Replace with your image path
+                    src: "images/tresa.jpg", // Replace with your image path
                     alt: "Project Screenshot",
                     style: {
                       width: "100%",
