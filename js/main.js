@@ -14435,17 +14435,22 @@ window.onload = titleMarquee;
                           rel: "noopener noreferrer",
                           style: {
                             textDecoration: "none",
-                            color: "#000",
-                            marginRight: "20px",
+                            color: "#fff", // Contrast for readability
+                            backgroundColor: "#24292e", // Dark background for "Code"
+                            padding: "8px 12px", // Reduced padding for a compact look
+                            borderRadius: "3px", // Reduced radius for sharper corners
+                            marginRight: "5px", // Slightly reduced space between buttons
                             display: "flex",
-                            alignItems: "center"
+                            alignItems: "center",
+                            fontWeight: "bold", // Makes the text stand out
+                            transition: "background-color 0.3s ease" // Smooth hover effect
                           },
                           children: [
                             (0, nMinutes.jsx)("i", {
                               className: "fa fa-github",
-                              style: { marginRight: "5px" }
+                              style: { marginRight: "0px" }
                             }),
-                            "Code"
+                            "View Code"
                           ]
                         }),
                         (0, nMinutes.jsx)("a", {
@@ -14454,14 +14459,20 @@ window.onload = titleMarquee;
                           rel: "noopener noreferrer",
                           style: {
                             textDecoration: "none",
-                            color: "#000",
+                            color: "#fff", // Contrast for readability
+                            backgroundColor: "#007BFF", // Blue for "Live Demo"
+                            padding: "8px 8px", // Reduced padding
+                            borderRadius: "3px", // Sharper corners
                             display: "flex",
-                            alignItems: "center"
+                            alignItems: "center",
+                            fontWeight: "bold",
+                            transition: "background-color 0.3s ease",
+                            marginLeft: "15px"// Adjusted left margin for symmetry
                           },
                           children: [
                             (0, nMinutes.jsx)("i", {
                               className: "fa fa-external-link",
-                              style: { marginRight: "10px"}
+                              style: { marginRight: "0px", fontSize:"14px", fontWeight:"bold"}
                             }),
                             "Live Demo Here"
                           ]
@@ -14537,25 +14548,21 @@ window.onload = titleMarquee;
                             target: "_blank",
                             rel: "noopener noreferrer",
                             style: {
-                              style: {
-                                textDecoration: "none",
-                                color: "#fff", // Contrast for readability
-                                backgroundColor: "#24292e", // Dark background for "Code"
-                                padding: "8px 12px", // Reduced padding for a compact look
-                                borderRadius: "3px", // Reduced radius for sharper corners
-                                marginRight: "15px", // Slightly reduced space between buttons
-                                display: "flex",
-                                alignItems: "center",
-                                fontWeight: "bold", // Makes the text stand out
-                                transition: "background-color 0.3s ease" // Smooth hover effect
-                              },
-                              onMouseEnter: (e) => (e.target.style.backgroundColor = "#333"), // Hover effect
-                              onMouseLeave: (e) => (e.target.style.backgroundColor = "#24292e"),
+                              textDecoration: "none",
+                              color: "#fff", // Contrast for readability
+                              backgroundColor: "#24292e", // Dark background for "Code"
+                              padding: "8px 12px", // Reduced padding for a compact look
+                              borderRadius: "3px", // Reduced radius for sharper corners
+                              marginRight: "5px", // Slightly reduced space between buttons
+                              display: "flex",
+                              alignItems: "center",
+                              fontWeight: "bold", // Makes the text stand out
+                              transition: "background-color 0.3s ease" // Smooth hover effect
                             },
                             children: [
                               (0, nMinutes.jsx)("i", {
                                 className: "fa fa-github",
-                                style: { marginRight: "5px" }
+                                style: { marginRight: "0px" }
                               }),
                               "View Code"
                             ]
@@ -14568,20 +14575,20 @@ window.onload = titleMarquee;
                               textDecoration: "none",
                               color: "#fff", // Contrast for readability
                               backgroundColor: "#007BFF", // Blue for "Live Demo"
-                              padding: "8px 12px", // Reduced padding
+                              padding: "8px 8px", // Reduced padding
                               borderRadius: "3px", // Sharper corners
                               display: "flex",
                               alignItems: "center",
                               fontWeight: "bold",
                               transition: "background-color 0.3s ease",
-                              marginLeft: "5px" // Adjusted left margin for symmetry
+                              marginLeft: "15px"// Adjusted left margin for symmetry
                             },
                             onMouseEnter: (e) => (e.target.style.backgroundColor = "#0056b3"), // Darker blue on hover
                             onMouseLeave: (e) => (e.target.style.backgroundColor = "#007BFF"),
                             children: [
                               (0, nMinutes.jsx)("i", {
                                 className: "fa fa-external-link",
-                                style: { marginRight: "10px"}
+                                style: { marginRight: "0px", fontSize:"14px", fontWeight:"bold"}
                               }),
                               "Live Demo Here"
                             ]
