@@ -14537,22 +14537,31 @@ window.onload = titleMarquee;
                             target: "_blank",
                             rel: "noopener noreferrer",
                             style: {
-                              textDecoration: "none",
-                              color: "#000",
-                              marginRight: "20px",
-                              display: "flex",
-                              alignItems: "center"
+                              style: {
+                                textDecoration: "none",
+                                color: "#fff", // Use a contrasting color for visibility
+                                backgroundColor: "#24292e", // GitHub-like button background
+                                padding: "10px 15px", // Add padding for a button-like appearance
+                                borderRadius: "5px", // Rounded corners for better aesthetics
+                                marginRight: "20px",
+                                display: "flex",
+                                alignItems: "center",
+                                fontWeight: "bold", // Make the text bold
+                                transition: "background-color 0.3s ease" // Smooth hover effect
+                              },
+                              onMouseEnter: (e) => (e.target.style.backgroundColor = "#333"), // Hover effect
+                              onMouseLeave: (e) => (e.target.style.backgroundColor = "#24292e"),
                             },
                             children: [
                               (0, nMinutes.jsx)("i", {
                                 className: "fa fa-github",
                                 style: { marginRight: "5px" }
                               }),
-                              "Code"
+                              "View Code"
                             ]
                           }),
                           (0, nMinutes.jsx)("a", {
-                            href: "https://www.tresa.org.uk", // Updated to your Live Demo URL
+                            href: "https://www.tresa.org.uk/totterdown-nature-reserve/", // Updated to your Live Demo URL
                             target: "_blank",
                             rel: "noopener noreferrer",
                             style: {
