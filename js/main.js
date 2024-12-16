@@ -14539,14 +14539,14 @@ window.onload = titleMarquee;
                             style: {
                               style: {
                                 textDecoration: "none",
-                                color: "#fff", // Use a contrasting color for visibility
-                                backgroundColor: "#24292e", // GitHub-like button background
-                                padding: "10px 15px", // Add padding for a button-like appearance
-                                borderRadius: "5px", // Rounded corners for better aesthetics
-                                marginRight: "20px",
+                                color: "#fff", // Contrast for readability
+                                backgroundColor: "#24292e", // Dark background for "Code"
+                                padding: "8px 12px", // Reduced padding for a compact look
+                                borderRadius: "3px", // Reduced radius for sharper corners
+                                marginRight: "15px", // Slightly reduced space between buttons
                                 display: "flex",
                                 alignItems: "center",
-                                fontWeight: "bold", // Make the text bold
+                                fontWeight: "bold", // Makes the text stand out
                                 transition: "background-color 0.3s ease" // Smooth hover effect
                               },
                               onMouseEnter: (e) => (e.target.style.backgroundColor = "#333"), // Hover effect
