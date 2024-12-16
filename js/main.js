@@ -14497,7 +14497,7 @@ window.onload = titleMarquee;
                   className: "project-image",
                   style: { flex: "1", paddingRight: "20px" },
                   children: (0, nMinutes.jsx)("img", {
-                    src: "images/tresa.jpg", // Replace with your image path
+                    src: "images/tresa2.jpg", // Replace with your image path
                     alt: "Project Screenshot",
                     style: {
                       width: "100%",
