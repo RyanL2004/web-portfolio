@@ -14566,14 +14566,15 @@ window.onload = titleMarquee;
                             rel: "noopener noreferrer",
                             style: {
                               textDecoration: "none",
-                              color: "#fff", // Contrasting text color
-                              backgroundColor: "#007BFF", // Blue button background for "Live Demo"
-                              padding: "10px 15px",
-                              borderRadius: "5px",
+                              color: "#fff", // Contrast for readability
+                              backgroundColor: "#007BFF", // Blue for "Live Demo"
+                              padding: "8px 12px", // Reduced padding
+                              borderRadius: "3px", // Sharper corners
                               display: "flex",
                               alignItems: "center",
                               fontWeight: "bold",
-                              transition: "background-color 0.3s ease"
+                              transition: "background-color 0.3s ease",
+                              marginLeft: "5px" // Adjusted left margin for symmetry
                             },
                             onMouseEnter: (e) => (e.target.style.backgroundColor = "#0056b3"), // Darker blue on hover
                             onMouseLeave: (e) => (e.target.style.backgroundColor = "#007BFF"),
