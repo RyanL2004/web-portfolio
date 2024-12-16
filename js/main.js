@@ -14566,10 +14566,17 @@ window.onload = titleMarquee;
                             rel: "noopener noreferrer",
                             style: {
                               textDecoration: "none",
-                              color: "#000",
+                              color: "#fff", // Contrasting text color
+                              backgroundColor: "#007BFF", // Blue button background for "Live Demo"
+                              padding: "10px 15px",
+                              borderRadius: "5px",
                               display: "flex",
-                              alignItems: "center"
+                              alignItems: "center",
+                              fontWeight: "bold",
+                              transition: "background-color 0.3s ease"
                             },
+                            onMouseEnter: (e) => (e.target.style.backgroundColor = "#0056b3"), // Darker blue on hover
+                            onMouseLeave: (e) => (e.target.style.backgroundColor = "#007BFF"),
                             children: [
                               (0, nMinutes.jsx)("i", {
                                 className: "fa fa-external-link",
