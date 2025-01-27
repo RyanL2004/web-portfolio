@@ -14418,11 +14418,11 @@ window.onload = titleMarquee;
                     }),
                     (0, nMinutes.jsxs)("p", {
                       style: { fontSize: "16px", marginBottom: "10px" },
-                      children: ["Languages: ", (0, nMinutes.jsx)("b", { children: "JavaScript | C# | HTML | LESS" })]
+                      children: ["Languages: ", (0, nMinutes.jsx)("b", { children: "JavaScript | Python | HTML | LESS" })]
                     }),
                     (0, nMinutes.jsxs)("p", {
                       style: { fontSize: "16px", marginBottom: "10px" },
-                      children: ["Technologies: ", (0, nMinutes.jsx)("b", { children: "React, Node, ASP.NET, OpenAI" })]
+                      children: ["Technologies: ", (0, nMinutes.jsx)("b", { children: "React, Node, Flask, Firebase, OpenAI" })]
                     }),
                     
                     // Code and Demo links
