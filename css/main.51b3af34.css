@@ -346,7 +346,7 @@ nav ul a:hover {
 .hero-img {
 	-webkit-animation: morph 8s ease-in-out infinite;
 	animation: morph 8s ease-in-out infinite;
-	background-image: url(https://github.com/user-attachments/assets/7adac7a9-a2f0-42fd-961c-7a15cc97eea5);
+	background-image: url(/images/GreenSweater.png);
 	background-position: 50%;
 	background-repeat: no-repeat;
 	background-size: cover;

@@ -14269,7 +14269,7 @@ window.onload = titleMarquee;
                     }), (0, nMinutes.jsx)("img", {
                       src : "images/waving.1bae5fcfb51082b5c2b4.png"
                     }), (0, nMinutes.jsx)("p", {
-                      children : "Hi there ! Welcome to my website Portfolio. I'm Rayan, a graduate Software Developer enthusiast from UWE Bristol, now open to work, Im eager to expand my knowledge and expertise."
+                      children : "Hi there ! Welcome to my website Portfolio. I'm Rayan, a graduate Software Engineer enthusiast from UWE Bristol, now open to work, Im eager to expand my knowledge and expertise."
                     }), (0, nMinutes.jsxs)("span", {
                       children : [(0, nMinutes.jsx)("a", {
                         "aria-label" : "linkedin",
