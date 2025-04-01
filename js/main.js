@@ -14265,11 +14265,11 @@ window.onload = titleMarquee;
                   children : [(0, nMinutes.jsxs)("div", {
                     className : "hero-text",
                     children : [(0, nMinutes.jsx)("h1", {
-                      children : "Junior Software Developer"
+                      children : "Software Engineer"
                     }), (0, nMinutes.jsx)("img", {
                       src : "images/waving.1bae5fcfb51082b5c2b4.png"
                     }), (0, nMinutes.jsx)("p", {
-                      children : "Hi there ! Welcome to my website Portfolio. I'm Rayan, a graduate Software Engineer enthusiast from UWE Bristol, now open to work, Im eager to expand my knowledge and expertise."
+                      children : "Hi there ! Welcome to my Portfolio. I'm Rayan a Software Engineer that loves solving problems and contribute in Open-Source"
                     }), (0, nMinutes.jsxs)("span", {
                       children : [(0, nMinutes.jsx)("a", {
                         "aria-label" : "linkedin",
@@ -14455,6 +14455,122 @@ window.onload = titleMarquee;
                         }),
                         (0, nMinutes.jsx)("a", {
                           href: "https://main.d1vie8hwpqax1c.amplifyapp.com/", // Updated to your Live Demo URL
+                          target: "_blank",
+                          rel: "noopener noreferrer",
+                          style: {
+                            textDecoration: "none",
+                            color: "#fff", // Contrast for readability
+                            backgroundColor: "#007BFF", // Blue for "Live Demo"
+                            padding: "8px 8px", // Reduced padding
+                            borderRadius: "3px", // Sharper corners
+                            display: "flex",
+                            alignItems: "center",
+                            fontWeight: "bold",
+                            transition: "background-color 0.3s ease",
+                            marginLeft: "15px"// Adjusted left margin for symmetry
+                          },
+                          children: [
+                            (0, nMinutes.jsx)("i", {
+                              className: "fa fa-external-link",
+                              style: { marginRight: "0px", fontSize:"14px", fontWeight:"bold"}
+                            }),
+                            "Live Demo Here"
+                          ]
+                        })
+                      ]
+                    })
+                  ]
+                })
+              ]
+            })
+          })
+        });
+      };
+
+      var create4 = function() {
+        return (0, nMinutes.jsx)(nMinutes.Fragment, {
+          children: (0, nMinutes.jsx)("section", {
+            id: "projects",
+            className: "project1",
+            style: { padding: "50px 0", textAlign: "left" },
+            children: (0, nMinutes.jsx)("div", {
+              className: "container",
+              style: {
+                display: "flex",
+                justifyContent: "space-between",
+                alignItems: "center",
+                maxWidth: "1200px",
+                margin: "0 auto"
+              },
+              children: [
+                // Image side
+                (0, nMinutes.jsx)("div", {
+                  className: "project-image",
+                  style: { flex: "1", paddingRight: "20px" },
+                  children: (0, nMinutes.jsx)("img", {
+                    src: "images/Teamlyse.png", // Replace with your image path
+                    alt: "Project Screenshot",
+                    style: {
+                      width: "100%",
+                      height: "auto",
+                      borderRadius: "10px",
+                      boxShadow: "0 4px 8px rgba(0,0,0,0.1)"
+                    }
+                  })
+                }),
+                // Text side
+                (0, nMinutes.jsx)("div", {
+                  className: "project-text",
+                  style: { flex: "1", paddingLeft: "20px" },
+                  children: [
+                    (0, nMinutes.jsx)("h3", {
+                      style: { fontSize: "24px", marginBottom: "10px" },
+                      children: "TΞAMLYSE"
+                    }),
+                    (0, nMinutes.jsx)("p", {
+                      style: { fontSize: "16px", marginBottom: "20px" },
+                      children:
+                        "TEAMLYSE is an AI SaaS platform that supports businesses, Enterprises and Educators with their meetings, by bringing in real-time advises suggestions, solutions and ideas based on their discussions"
+                    }),
+                    (0, nMinutes.jsxs)("p", {
+                      style: { fontSize: "16px", marginBottom: "10px" },
+                      children: ["Languages: ", (0, nMinutes.jsx)("b", { children: "JavaScript | TypeScript | Python | HTML | CSS" })]
+                    }),
+                    (0, nMinutes.jsxs)("p", {
+                      style: { fontSize: "16px", marginBottom: "10px" },
+                      children: ["Technologies: ", (0, nMinutes.jsx)("b", { children: "React, Node, Express, Flask, Pytorch, HuggingFace-Transformers, ShadCN, Redux, mongoose ORM, MONGODB, S3 Bucket, Render" })]
+                    }),
+                    
+                    // Code and Demo links
+                    (0, nMinutes.jsxs)("div", {
+                      style: { display: "flex", alignItems: "center" },
+                      children: [
+                        (0, nMinutes.jsx)("a", {
+                          href: "https://github.com/RyanL2004/meeting-companion", // Replace with your code repository link
+                          target: "_blank",
+                          rel: "noopener noreferrer",
+                          style: {
+                            textDecoration: "none",
+                            color: "#fff", // Contrast for readability
+                            backgroundColor: "#24292e", // Dark background for "Code"
+                            padding: "8px 12px", // Reduced padding for a compact look
+                            borderRadius: "3px", // Reduced radius for sharper corners
+                            marginRight: "5px", // Slightly reduced space between buttons
+                            display: "flex",
+                            alignItems: "center",
+                            fontWeight: "bold", // Makes the text stand out
+                            transition: "background-color 0.3s ease" // Smooth hover effect
+                          },
+                          children: [
+                            (0, nMinutes.jsx)("i", {
+                              className: "fa fa-github",
+                              style: { marginRight: "0px" }
+                            }),
+                            "View Code"
+                          ]
+                        }),
+                        (0, nMinutes.jsx)("a", {
+                          href: "https://d8bao5pqag4tb.cloudfront.net/", // Updated to your Live Demo URL
                           target: "_blank",
                           rel: "noopener noreferrer",
                           style: {
@@ -14874,7 +14990,7 @@ window.onload = titleMarquee;
        */
       var collections = function() {
         return(0, nMinutes.jsxs)(nMinutes.Fragment, {
-          children : [(0, nMinutes.jsx)(update, {}), (0, nMinutes.jsx)(init, {}), (0, nMinutes.jsx)(Redactor, {}), (0, nMinutes.jsx)(create, {}), (0, nMinutes.jsx)(create3, {}), (0, nMinutes.jsx)(create2, {}), (0, nMinutes.jsx)(parse, {}), (0, nMinutes.jsx)(success, {})]
+          children : [(0, nMinutes.jsx)(update, {}), (0, nMinutes.jsx)(init, {}), (0, nMinutes.jsx)(Redactor, {}),(0, nMinutes.jsx)(create4, {}), (0, nMinutes.jsx)(create, {}), (0, nMinutes.jsx)(create3, {}), (0, nMinutes.jsx)(create2, {}), (0, nMinutes.jsx)(parse, {}), (0, nMinutes.jsx)(success, {})]
         });
       };
       /**
